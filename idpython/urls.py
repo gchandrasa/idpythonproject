@@ -4,7 +4,7 @@ from django.conf.urls import patterns, include, url
 from django.contrib import admin
 admin.autodiscover()
 
-urlpatterns = patterns('',
+urlpatterns = patterns('views',
     # Examples:
     # url(r'^$', 'idpython.views.home', name='home'),
     # url(r'^idpython/', include('idpython.foo.urls')),
@@ -12,6 +12,6 @@ urlpatterns = patterns('',
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
-    # Uncomment the next line to enable the admin:
+    url(r'^$', 'index'),
     url(r'^admin/', include(admin.site.urls)),
 )

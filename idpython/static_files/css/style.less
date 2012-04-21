@@ -1,0 +1,50 @@
+@text-color: #555;
+@text-darker: #333;
+@droid: 'Droid Sans', sans-serif;
+
+body {
+    color: @text-color;
+    font-size: 13px;
+    font: @droid;
+}
+
+a {
+    color: red;
+}
+
+#top {
+    background: #000;
+}
+
+#header-big {
+	.column {
+		float: left;
+		width: 50%;
+	}
+}
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+    body {
+        
+    }
+
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*  .logo {
+        background: url(logo2x.jpg) no-repeat;
+        background-size: 212px 303px;
+    }*/
+
+}
