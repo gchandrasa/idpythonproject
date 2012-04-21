@@ -6,6 +6,7 @@ ID Python
 :Maintainer: Gilang Chandrasa (http://github.com/gchandrasa)
 
 Untuk settings lokal gunakan nama file settings_local.py, contoh isi file settings_local.py :
+::
 
 	DATABASES = {
 	    'default': {
