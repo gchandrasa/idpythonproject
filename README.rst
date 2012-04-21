@@ -14,7 +14,7 @@ Collaborators :
 - Sakti Dwi Cahyono (@saktidc)
 - Selwin Ong (@selwin)
 
-Untuk settings lokal gunakan nama file settings_local.py, contoh isi file settings_local.py :
+Untuk settings individu, seperti konfigurasi database gunakan file settings_local.py, contoh isi file settings_local.py :
 ::
 
 	DATABASES = {
