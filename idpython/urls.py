@@ -9,9 +9,11 @@ urlpatterns = patterns('views',
     # url(r'^$', 'idpython.views.home', name='home'),
     # url(r'^idpython/', include('idpython.foo.urls')),
 
-    # Uncomment the admin/doc line below to enable admin documentation:
-    # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
-
     url(r'^$', 'index'),
+    # Uncomment the next line to enable the admin:
+    # url(r'^admin/', include(admin.site.urls)),
+    #(r'^admin/', include(admin.site.urls)),
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^', include('cms.urls')),
+    
 )
