@@ -3,3 +3,4 @@ _builds
 *.pyc
 settings_local.py
 docs/_build
+tmp/
