@@ -2,3 +2,4 @@
 _builds
 *.pyc
 settings_local.py
+tmp/
