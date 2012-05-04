@@ -99,8 +99,8 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.request',
     'django.core.context_processors.media',
     'django.core.context_processors.static',
-    'cms.context_processors.media',
-    'sekizai.context_processors.sekizai',
+    #'cms.context_processors.media',
+    #'sekizai.context_processors.sekizai',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -111,10 +111,10 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
     # Uncomment the next line for simple clickjacking protection:
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'cms.middleware.multilingual.MultilingualURLMiddleware',
-    'cms.middleware.page.CurrentPageMiddleware',
-    'cms.middleware.user.CurrentUserMiddleware',
-    'cms.middleware.toolbar.ToolbarMiddleware',
+    #'cms.middleware.multilingual.MultilingualURLMiddleware',
+    #'cms.middleware.page.CurrentPageMiddleware',
+    #'cms.middleware.user.CurrentUserMiddleware',
+    #'cms.middleware.toolbar.ToolbarMiddleware',
 )
 
 ROOT_URLCONF = 'idpython.urls'
@@ -142,20 +142,20 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 
-    'cms',
-    'mptt',
-    'menus',
-    'south',
-    'sekizai',
-    'cms.plugins.flash',
-    'cms.plugins.googlemap',
-    'cms.plugins.link',
-    'cms.plugins.picture',
-    'cms.plugins.snippet',
-    'cms.plugins.teaser',
-    'cms.plugins.text',
-    'cms.plugins.video',
-    'cms.plugins.twitter',
+    #'cms',
+    #'mptt',
+    #'menus',
+    #'south',
+    #'sekizai',
+    #'cms.plugins.flash',
+    #'cms.plugins.googlemap',
+    #'cms.plugins.link',
+    #'cms.plugins.picture',
+    #'cms.plugins.snippet',
+    #'cms.plugins.teaser',
+    #'cms.plugins.text',
+    #'cms.plugins.video',
+    #'cms.plugins.twitter',
 )
 
 # A sample logging configuration. The only tangible logging
