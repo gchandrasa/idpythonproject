@@ -71,11 +71,3 @@ Butuh bantuan?
 Kontribusi
 ==================
 * :doc:`Bagaimana cara berkontribusi di proyek ini? <internal/how-to-get-involved>`
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
